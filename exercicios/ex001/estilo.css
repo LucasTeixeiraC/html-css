@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.imagem-redonda {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+strong {
+    font-weight: bold;
+}
+br {
+    margin-bottom: 20px;
+}
+        
+div#ex5{
+    width: 800px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px;
+    background: linear-gradient(120deg, #0600009a, #bfbaba01);
+    border: dashed black;
+}
+
+div#mapa {
+    border:dotted black;
+    display: inline-block;
+    max-width: 100%;
+    
+    
+}
+div#bt-next, div#bt-voltar {
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    
+    
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+div#todos-ex  {
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    
+}
+
+footer{
+    margin-top: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+    
+   
+  }
+  
+  .column div {
+    
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    justify-content: space-around;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 10px 8px 10px rgb(0, 0, 0,.5 );
+  }
+div#vitrine1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+div#vitrine2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(120deg, #0bcdc3aa, #05826782);
+}
+body#bex9 {
+    text-align: center;
+    
+}
+
+.videospg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.bpg {
+    text-align: center;
+}
+.ft-ex8 {
+    
+    padding: 0;
+}
+
+
+div#bt, #voltar {
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+    
+   
+}

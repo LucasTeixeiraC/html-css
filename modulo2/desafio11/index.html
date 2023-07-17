@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 11</title>
+    <style>
+      body {
+        background-color: black;
+      }
+        div {
+          position: relative;
+          margin: -10px;
+          padding: 0px 0px 0px -20px;
+        }
+        div > img#img1 {
+          width: 100%;
+          position: relative;
+          z-index: 1;
+          box-shadow: 10px 10px 10px 10px black;
+        }
+        img#img2 {
+          width: 20%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <img id="img1" src="espacom.jpg" width="1400px" height="700px" alt="">
+        <img id="img2" src="astronauta.png" alt="">
+    </div>
+      
+</body>
+</html>

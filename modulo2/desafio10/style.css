@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonteP';
+    src: url(__MACOSX/fontes/idroid1.otf);
+}
+@font-face {
+    font-family: 'fonteRobo';
+    src: url(fontes/idroid.otf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header#cabecalho {
+    background: linear-gradient(to bottom, rgb(0, 166, 89), rgb(1, 81, 34));
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+    
+    
+
+}
+#h1cabe {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+#pcabe {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+    
+}
+header > footer {
+    position: absolute;
+    bottom: 0;
+    
+}
+
+header > footer > a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+    
+}
+header > footer > a:hover {
+    text-decoration: underline;
+}
+main#corpo {
+    width: 1100px;
+    background-color: #ffffff;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+   
+
+}
+.corpo-titulos {
+    color: rgb(2, 88, 25);
+    font-family: 'fonteRobo', Arial, Helvetica, sans-serif;
+}
+.pmain {
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Roboto Mono', monospace;
+    text-indent: 20px;
+    line-height: 2;
+}
+#img2 {
+    margin-top: 30px;
+    width: 100%;
+}
+#span1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#svideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    
+    ;
+}
+#video {
+    background-color: rgb(1, 47, 16);
+    padding: 0;
+    margin: -10px;
+}
+#sla {
+    
+    margin-top: 30px;
+    background-color: rgba(144, 238, 144, 0.452);
+    border: solid rgb(144, 238, 144);
+    border-radius: 5px;
+
+}
+#slah2 {
+    background-color: rgb(0, 118, 49);
+}
+#td2 {
+   padding-left: 250px;
+}
+footer#final {
+    background: linear-gradient(to bottom, rgb(0, 166, 89), rgb(1, 81, 34));
+    height: 50px;
+}
+footer#final > p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
