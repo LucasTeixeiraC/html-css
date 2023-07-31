@@ -4,12 +4,9 @@
     box-sizing: border-box;
     outline: 0;
 }
-
-
-@import "partials/colors";
+@import "partials/_colors.scss";
 @import "partials/header";
 @import "partials/layout";
-
 body {
     font-family: 'Sora', sans-serif;
     width: 100%;
@@ -18,23 +15,18 @@ body {
     background-color: $primety-normal;
 }
 
+
 button {
-    font-family: "Sora", sans-serif;
+    font-family: 'Sora', sans-serif;
     cursor: pointer;
 }
-
 svg {
     width: 100%;
-
 }
-
 img {
     width: 100%;
-
 }
-
 a {
     cursor: pointer;
     text-decoration: none;
-
 }
