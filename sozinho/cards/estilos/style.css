@@ -130,25 +130,64 @@ h1 {
 
 .btn-next {
     position: absolute;
-    background-color: red;
-    width: 30px;
-    height: 30px;
+    background-color: rgba(6, 204, 6, 0.846);
+    width: 50px;
+    height: 50px;
     display: flex;
     top: 20%;
-    left: 90%;
+    left: 82%;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
+    
 }
 .btn-back {
     position: absolute;
-    background-color: red;
-    width: 30px;
-    height: 30px;
+    background-color: rgba(6, 204, 6, 0.846);
+    width: 50px;
+    height: 50px;
     display: flex;
     top: 20%;
     left: -4%;
     border-radius: 50px;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    
+    
+}
+.btn-next:hover, .btn-back:hover {
+    transform: scale(1.2);
+    
+}
+
+.cor-preto {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+.cor-rosa {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgb(206, 7, 40);
+}
+#bloco-txt {
+    position: relative;
+}
+#div-cores {
+    gap: 8px;
+    display: flex;
+    
+    width: 80px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 55%;
+    left: 65%;
+   
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.468);
+    border-radius: 5px;
 }

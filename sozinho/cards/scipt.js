@@ -19,3 +19,13 @@ function back2(){
    img2.src = "assetz/iphoneazul1.png";
    
 }
+
+function corPreto (){
+   
+   const img2 = document.getElementById('img2')
+   img2.src = "assetz/iphonepreto3.png"
+}
+function corRosa (){
+   const img2 = document.getElementById('img2')
+   img2.src = "assetz/iphonerosa3.png"
+}
