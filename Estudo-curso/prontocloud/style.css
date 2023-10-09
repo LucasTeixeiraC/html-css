@@ -64,6 +64,10 @@ p {
     margin-bottom: 10px;
     line-height: 1.4;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 ol {
     margin-left: 20px;
 }
@@ -126,3 +130,4 @@ footer small {
     font-size: 88%;
     display: block;
 }
+
