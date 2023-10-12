@@ -221,23 +221,26 @@ footer small {
 
 .duvidas {
     background-color: lightblue;
-    height: 400px;
+    height: 500px;
     margin-left: -40px !important;
     padding-right: 40px !important;
     
     
 }
 .btn2 {
-    justify-content: end;
+    justify-content: start;
     padding-left: 100px;
-    align-items: start;
+    padding-top: 10px;
+   
 }
 .btn-cta2 {
     border-radius: 20px;
+    margin-left: 50px;
 }
 .faq {
     padding: 50px;
     color: var(--text-color);
+    
 }
  
 dt {
