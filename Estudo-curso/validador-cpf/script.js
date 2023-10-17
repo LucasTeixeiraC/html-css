@@ -1,6 +1,14 @@
 
 function validCpf (cpf) {
-    return true;
+    if(cpf.length != 11) {
+        return false;
+    } else {
+        let numeros = cpf.substring(0,9)
+            let digitos = cpf.substring(9)
+
+            console.log('Numeros do cpf: ' + numeros)
+            console.log('Digitos do cpf: ' + digitos)
+    }
 }
 
 
