@@ -8,6 +8,14 @@ body {
     line-height: 2;
     
 }
+img {
+    max-width: 100%;
+}
+#eu {
+    width: 200px;
+    overflow: hidden;
+    
+}
 
 a {
     color: inherit;
@@ -204,6 +212,18 @@ textarea {
     padding: 124px 54px 74px;
     box-sizing: border-box;
 }
+
+
+.main-header-link img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.recent-works-card img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .row {
     overflow: auto;
 }
@@ -230,13 +250,88 @@ textarea {
     
 }
 
+.imagem-link {
+    border: 0;
+    
+}
+.imagem-link img {
+    width: 380px;
+}
+
+.gallery-img img {
+    width: 100%;
+    padding-bottom: 1%;
+}
+.gallery-thumb {
+    width: 100%;
+   
+    
+  
+}
+.gallery-thumb img {    
+    width: 32%;
+    border-radius: 5px;
+}
+.colum-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.colum-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.colum-3 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* Dark mod*/
+
 .dark-icons {
     color: black;
     position: absolute;
     top: 0;
     left: 25px;
-    font-size: 25px;
+    font-size: 50;
     font-weight: 700;
 
 }
+#change-theme {
+    display: none;
+}
 
+.dark, 
+.dark header {
+    background-color: #263238;
+    color: #fff;
+}
+.bx-toggle-right {
+    font-size: 0;
+}
+
+.dark .bx-toggle-right {
+    display: block;
+    font-size: 30pt;
+}
+.dark .bx-toggle-left {
+    display: none;
+}
+
+.troca-tema {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30pt;
+    font-weight: 800;
+    color: black;
+}
