@@ -25,6 +25,7 @@
         <h1 class="main-header-title">
             Trabalhos e groselhas de <br> <strong>Lucas </strong> um Zé ninguem <br> qualquer vivendo a vida por ai
         </h1>
+        <p>Retirador de <a href="#">Html5up.net</a></p>
     </header>
     <main class="main-content">
         <section class="main-content-section"> 
@@ -340,35 +341,37 @@
 
             <h5 class="new">Form</h5>
 
-            <form>
+            <form action="#" method="post">
                 <label for="name">Name: </label>
                 <input type="text" name="name" id="name">
 
                 <label for="E-mail">E-mail</label>
                 <input type="email" name="email" id="email">
 
-                <label for="categoria">categoria</label>
+                <label for="categoria">Categoria</label>
                 <select name="categoria" id="categoria">
                     <option value="0"> Selecione... </option>
                     <option value="1"> HTML</option>
                     <option value="2"> CSS</option>
                     <option value="3"> JavaScript</option>
                 </select>
+                
+                
+                <label> <input type="radio" name="prioridade" value="baixa"> Baixa prioridade</label>
+                <label> <input type="radio" name="prioridade" value="media"> media prioridade</label>
+                <label> <input type="radio" name="prioridade" value="alta"> alta prioridade</label>
+
+                <label><input type="checkbox" name="copy" value="1">Envie-me uma copia</label>
+                <label><input type="checkbox" name="human" value="1">Sou Humano</label>
+
+
+                <label for="msg">Mensagem: </label>
+                <textarea name="msg" id="mag" placeholder="Digite uma mensagem"></textarea>
+
+                <input type="submit" class="button-default button-default-big" value="Enviar">
+                <input type="submit" class="dark button-default button-default-big button-default-stroke" value="Limpar">
+
             </form>
-            
-            <label> <input type="radio" name="prioridade" value="baixa"> Baixa prioridade</label>
-            <label> <input type="radio" name="prioridade" value="media"> media prioridade</label>
-            <label> <input type="radio" name="prioridade" value="alta"> alta prioridade</label>
-
-            <label><input type="checkbox" name="copy" value="1">Envie-me uma copia</label>
-            <label><input type="checkbox" name="human" value="1">Sou Humano</label>
-
-
-            <label for="msg">Mensagem: </label>
-            <textarea name="msg" id="mag" placeholder="Digite uma mensagem"></textarea>
-
-            <input type="submit" class="button-default button-default-big" value="Enviar">
-            <input type="submit" class="dark button-default button-default-big button-default-stroke" value="Limpar">
         </section>
 
         <section class="main-content-section">
@@ -415,6 +418,17 @@
 
     </main>
     <footer class="main-footer"> 
+
+        <ul class="ul-icons" id="icons-footer">
+            <li><a href="#top" class="icons-link"><i class='bx bxl-twitter' ></i></a></li>
+            <li><a href="#top" class="icons-link"><i class='bx bxl-facebook' ></i></a></li>
+            <li><a href="#top" class="icons-link"><i class='bx bxl-github' ></i></a></li>
+            <li><a href="#top" class="icons-link"><i class='bx bxl-instagram' ></i></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>© Unitled</li>
+            <li>Desing: <a href="https://github.com/LucasTeixeiraC">Luccas</a></li>
+        </ul>
     </footer>
 </body>
 </html>
