@@ -254,6 +254,9 @@ textarea {
 
 .imagem-link {
     border: 0;
+}
+.recent-works-card > .imagem-link:hover {
+    opacity: 0.3;
     
 }
 .imagem-link img {
