@@ -13,8 +13,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', sans-serif;
 }
 
-.top-header {
+/* Header */
 
+.top-header {
+    text-align: center;
+}
+.top-header-logo {
+    margin: 0.5em;
 }
 .top-nav {
     background-color: #612674;
@@ -29,8 +34,28 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 1em;
+    padding: 1em 0;
 }
 .top-nav a:hover {
     background-color: #7c3792;
 }
+/* Header End */
+
+/* Content */
+.top-content {
+    padding: 1em;
+    text-align: center;
+    background: #efefef;
+}
+
+.top-content-title {
+    color: #612674;
+    font-size: 1.4em;
+    padding: 1.4em;
+}
+.top-content-subtitle {
+    color: #a87bb7;
+    font-size: 1em;
+}
+
+/* Content End */
