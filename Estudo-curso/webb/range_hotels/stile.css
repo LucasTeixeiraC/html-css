@@ -1,4 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@400;700&display=swap');
 
-*{
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Oxygen', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.top-header {
+
+}
+.top-nav {
+    background-color: #612674;
+    text-align: center;
+}
+.top-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+.top-nav a:hover {
+    background-color: #7c3792;
 }
