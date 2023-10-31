@@ -92,6 +92,73 @@ h1, h2, h3, h4, h5, h6 {
     color: #222;
 }
 .middle-content i[class^=bx] {
-    font-size: 30pt;
+    font-size: 3.5em;
+    color: #652e78;
+    padding-top: 1.5em;
 }
 /* middle-content end */
+
+/* main content  */
+
+.main-content {
+    padding: 2em;
+}
+.main-content P {
+    line-height: 1.2;
+}
+.main-content-title {
+    letter-spacing: .2em;
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+.main-content-article {
+    margin-bottom: 3.5em;
+}
+
+/* main content end */
+
+/* Footer */
+.footer{
+    background-color: #25303e;
+    color: #83969f;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.hidden {
+    font-size: 20pt;
+    padding: .5em;
+}
+.footer-menushare {
+    text-align: center;
+    background-color: #3a4b60;
+    margin-bottom: 0.5em;
+}
+.footer-menushare ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.footer-menushare li {
+    display: inline-block;
+    margin: 0 1em;
+}
+.footer-menushare a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+/* Footer end */
+
+/* media queris */
+
+@media screen and (min-width: 48.75em) {
+    .top-content {
+        background-color: #521a66;
+        color: white;
+    }
+    .top-content-title, .top-content-subtitle {
+        color: white;
+    }
+}
